@@ -1,0 +1,8 @@
+{ "passengers": 1, 
+  "from": "London", 
+  "fromMonth": "November",
+  "fromDate": "20",
+  "to": "Zurich",
+  "toMonth": "November",
+  "toDate": "30"
+}

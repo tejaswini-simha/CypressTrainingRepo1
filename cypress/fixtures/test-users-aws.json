@@ -1,0 +1,14 @@
+[
+	{ "username": "mercury1@email",
+	  "password": "mercury1",
+	  "welcomeMsg": "Signed in as mercury1@email"
+	},
+    { "username": "mercury2@email",
+	  "password": "mercury2",
+	  "welcomeMsg": "Signed in as mercury2@email"
+	},
+    { "username": "mercury3@email",
+	  "password": "mercury3",
+	  "welcomeMsg": "Signed in as mercury3@email"
+	}
+]

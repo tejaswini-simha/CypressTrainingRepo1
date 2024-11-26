@@ -1,0 +1,17 @@
+{
+  "name": "cyauto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:runRecord": "npx cypress run --record --key 0aba12cc-bca1-4d48-b421-7a37fa2f5c57 --browser chrome --spec"
+  },
+  "author": "Teju",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "allure-cypress": "^3.0.6",
+    "cypress": "^13.14.2"
+  },
+  "type": "module"
+}
