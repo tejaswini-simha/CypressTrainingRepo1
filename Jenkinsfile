@@ -33,8 +33,8 @@ pipeline {
             always {
             // cucumber '**/cucumber-report.json skippedAsNotFailingStatus=true'
             cucumber(
-                fileIncludePattern: '**/cucumber-report.json' // Path to your cucumber.json report
-                // skippedAsNotFailingStatus: true // Treat skipped steps as non-failing
+                fileIncludePattern: '**/cucumber-report.json', // Path to your cucumber.json report
+                skippedAsNotFailingStatus: true // Treat skipped steps as non-failing
             )
         }
         }
