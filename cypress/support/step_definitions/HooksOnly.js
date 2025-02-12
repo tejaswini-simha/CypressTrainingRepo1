@@ -29,7 +29,6 @@ After(()=> {
     cy.log("From Hooks Only :: Cucumber's After called");
 })
 
-
 AfterAll(()=> {
     cy.log("From Hooks Only :: Cucumber's AfterAll called");
 })
