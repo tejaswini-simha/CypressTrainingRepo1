@@ -20,6 +20,7 @@ describe('Login Test -- Automation test store - Hybrid framework', () => {
       //   cy.get("a").contains("Login or register").click();
         cy.insDemoAppLogin(data.username, data.password, data.welcomeMsg);
         cy.insDemoAppSignOff();
+          cy.log("Signed off");
       })
   })
   })
