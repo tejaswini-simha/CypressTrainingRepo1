@@ -9,12 +9,17 @@ describe('Login Test -- Automation test store - Hybrid framework', () => {
       cy.visitApp("https://demo.guru99.com/insurance/v1/index.php");
     })
 
+    it('should login with a single credential', function () {
+        cy.insDemoAppLogin(testData[0].username, testData[0].password, testData[0].welcomeMsg);
+        cy.insDemoAppSignOff();
+    })
+
     it('should login with different credentials', function () {
       testData.forEach((data) => {
       //   cy.get("a").contains("Login or register").click();
         cy.insDemoAppLogin(data.username, data.password, data.welcomeMsg);
         cy.insDemoAppSignOff();
-          cy.log("Signed off");
+        cy.log("Signed off");
       })
-  })
+    })
   })
